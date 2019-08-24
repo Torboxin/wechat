@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.test</groupId>
+		<artifactId>wechat</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>wechat-model-controller</artifactId>
+	<packaging>war</packaging>
+	<name>wechat-model-controller Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>com.test</groupId>
+			<artifactId>wechat-model-service</artifactId>
+			<version>${model.version}</version>
+		</dependency>
+
+<!-- 		<dependency>
+			<groupId>com.test</groupId>
+			<artifactId>wechat-model-core</artifactId>
+			<version>${model.version}</version>
+		</dependency> -->
+
+		<dependency>
+			<groupId>com.test</groupId>
+			<artifactId>wechat-model-shiro</artifactId>
+			<version>${model.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>${freemarker.version}</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>wechat-model-controller</finalName>
+	</build>
+</project>
