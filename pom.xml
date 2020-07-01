@@ -20,7 +20,7 @@
 		<easyexcel.version>1.1.2-beta4</easyexcel.version>
 		<druid.version>1.1.18</druid.version>
 		<junit.version>3.8.1</junit.version>
-		<log4j.version>2.11.2</log4j.version>
+		<log4j.version>2.13.2</log4j.version>
 		<jfinal.version>3.5</jfinal.version>
 		<mysql.version>5.1.45</mysql.version>
 		<json.version>2.1</json.version>
