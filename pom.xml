@@ -29,7 +29,7 @@
 		<jfinalmxt.version>0.1</jfinalmxt.version>
 		<freemarker.version>2.3.20</freemarker.version>
 		<model.version>0.0.1-SNAPSHOT</model.version>
-		<shiro.version>1.4.1</shiro.version>
+		<shiro.version>1.10.0</shiro.version>
 	</properties>
 
 	<dependencies>
